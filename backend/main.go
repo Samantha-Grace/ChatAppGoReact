@@ -13,5 +13,7 @@ func setupRoutes() {
 
 func main() {
 	setupRoutes()
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":8081", nil)
 }
+
+//left off at THE WEBSOCKET PROTOCOL on second page
